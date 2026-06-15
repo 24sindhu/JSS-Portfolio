@@ -248,6 +248,28 @@
       </div>
     </article>
 
+    <!-- InsureAI -->
+    <article class="project-card">
+      <h3>InsureAI – Health Cost Predictor</h3>
+      <p class="tech-stack">
+        Python, XGBoost, FastAPI, Streamlit, SHAP
+      </p>
+      <p>
+        End-to-end ML application that predicts health insurance costs and explains predictions using
+        SHAP-based feature importance.
+      </p>
+      <ul>
+        <li>Designed Python pipelines for data preprocessing, model training, and evaluation with XGBoost.</li>
+        <li>Exposed prediction logic through a FastAPI backend and built a Streamlit front-end for interactive use.</li>
+        <li>Integrated SHAP to provide explainable insights, showing which features drive each prediction.</li>
+      </ul>
+      <div class="project-links">
+        <a href="https://github.com/24sindhu/InsureAI---Health-Cost-Predictor" target="_blank" rel="noreferrer">
+          GitHub Repo
+        </a>
+      </div>
+    </article>
+    
     <!-- Movie Recommender -->
     <article class="project-card">
       <h3>Movie Recommender System</h3>
@@ -256,13 +278,13 @@
       </p>
       <p>
         Content-based recommendation system using the TMDB 5000 dataset to suggest similar movies based on
-        genres, keywords, cast, crew, and overview text. [web:33][web:36]
+        genres, keywords, cast, crew, and overview text. 
       </p>
       <ul>
-        <li>Preprocessed TMDB movie and credits data and engineered a unified “tags” field from overview, genres, keywords, cast, and crew metadata. [file:21][web:33]</li>
-        <li>Applied text normalization and stemming, then vectorized tags using CountVectorizer with a capped vocabulary to control feature space size. [file:21][web:36]</li>
-        <li>Computed cosine similarity between movie vectors and implemented a recommendation function that returns top-N similar movies for a given title. [file:21][web:36]</li>
-        <li>Exported processed data as a pickle artifact and connected the backend logic to a simple frontend UI to let users search a movie and view recommended titles. [file:21][web:39]</li>
+        <li>Preprocessed TMDB movie and credits data and engineered a unified “tags” field from overview, genres, keywords, cast, and crew metadata.</li>
+        <li>Applied text normalization and stemming, then vectorized tags using CountVectorizer with a capped vocabulary to control feature space size.</li>
+        <li>Computed cosine similarity between movie vectors and implemented a recommendation function that returns top-N similar movies for a given title.</li>
+        <li>Exported processed data as a pickle artifact and connected the backend logic to a simple frontend UI to let users search a movie and view recommended titles.</li>
       </ul>
       <div class="project-links">
         <a href="https://github.com/24sindhu/Cinemate" target="_blank" rel="noreferrer">
@@ -279,14 +301,14 @@
       </p>
       <p>
         Deep learning system that classifies 156 handwritten Tamil script characters from grayscale images
-        using a custom convolutional neural network and curated preprocessing pipeline. [web:31][web:34]
+        using a custom convolutional neural network and curated preprocessing pipeline. 
       </p>
       <ul>
-        <li>Used the HPL Tamil Offline Character Dataset with 156 character classes and preprocessed grayscale TIFF images into centered 128×128 inputs. [web:31][web:40]</li>
-        <li>Implemented bounding-box extraction, resizing to 100×100, padding to 128×128, and pixel normalization to standardize training data. [web:34][web:40]</li>
-        <li>Designed a custom CNN with stacked Conv2D and MaxPooling2D layers, BatchNormalization, Dropout, and dense layers with ReLU and final softmax for 156-way classification. [web:31][web:35]</li>
-        <li>Achieved around 97.8% train accuracy and 92.5% test accuracy on the base model, then experimented with L2 regularization and higher dropout for better generalization. [web:31][web:35]</li>
-        <li>Provided a reusable prediction pipeline where new images are preprocessed and passed through the trained model to output the corresponding Tamil character code. [web:31][web:40]</li>
+        <li>Used the HPL Tamil Offline Character Dataset with 156 character classes and preprocessed grayscale TIFF images into centered 128×128 inputs.</li>
+        <li>Implemented bounding-box extraction, resizing to 100×100, padding to 128×128, and pixel normalization to standardize training data.</li>
+        <li>Designed a custom CNN with stacked Conv2D and MaxPooling2D layers, BatchNormalization, Dropout, and dense layers with ReLU and final softmax for 156-way classification.</li>
+        <li>Achieved around 97.8% train accuracy and 92.5% test accuracy on the base model, then experimented with L2 regularization and higher dropout for better generalization.</li>
+        <li>Provided a reusable prediction pipeline where new images are preprocessed and passed through the trained model to output the corresponding Tamil character code.</li>
       </ul>
       <div class="project-links">
         <a href="https://github.com/24sindhu/TamiLearn---Tamil-Character-Recognizer" target="_blank" rel="noreferrer">
@@ -295,27 +317,6 @@
       </div>
     </article>
 
-    <!-- InsureAI -->
-    <article class="project-card">
-      <h3>InsureAI – Health Cost Predictor</h3>
-      <p class="tech-stack">
-        Python, XGBoost, FastAPI, Streamlit, SHAP
-      </p>
-      <p>
-        End-to-end ML application that predicts health insurance costs and explains predictions using
-        SHAP-based feature importance. [web:35][web:32]
-      </p>
-      <ul>
-        <li>Designed Python pipelines for data preprocessing, model training, and evaluation with XGBoost. [web:35]</li>
-        <li>Exposed prediction logic through a FastAPI backend and built a Streamlit front-end for interactive use. [web:39]</li>
-        <li>Integrated SHAP to provide explainable insights, showing which features drive each prediction. [web:32]</li>
-      </ul>
-      <div class="project-links">
-        <a href="https://github.com/24sindhu/InsureAI---Health-Cost-Predictor" target="_blank" rel="noreferrer">
-          GitHub Repo
-        </a>
-      </div>
-    </article>
 
     <!-- Directory Size Calculator -->
     <article class="project-card">
